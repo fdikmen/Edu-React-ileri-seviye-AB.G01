@@ -7,12 +7,13 @@ module.exports = {
 }
 */
 
-const { dir } = require('console');
+
 const path = require('path');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
     entry:"./src/home.js",
+    mode:"development", // development, production, none
     output:{
         filename:"customResult.js",
         path:path.resolve(__dirname,"dist") // username/01.JS-Boundlers/bound-sample/dist
@@ -30,11 +31,8 @@ module.exports = {
         ]
     },
     plugins:[new BundleAnalyzerPlugin()],
-    devServer: {
-        static: {
-          directory: path.join(__dirname, 'dist'),
-        },
-        compress: true,
-        port: 8080,
-    }
+    // devServer: {
+    //     compress: true,
+    //     port: 8080,
+    // }
 }
