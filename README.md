@@ -37,4 +37,9 @@ f. system(SystemJS)
 16. Konfigürasyon Kullanimi
 17. Plugin
 https://github.com/rollup/awesome
-18.
+npm install @rollup/plugin-json --save-dev
+18. Output Plugin i kullanimi
+https://rollupjs.org/plugin-development/#build-hooks
+npm install @rollup/plugin-terser --save-dev
+
+19. 
