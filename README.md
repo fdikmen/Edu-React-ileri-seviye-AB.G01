@@ -101,9 +101,9 @@
      - `preconnect(href)`
      - `prefetchDNS(href)`
      - `preinit(href,option)`
-     - `preinitmodule(href,optin)` => ES6
+     - `preinitmodule(href,option)` => ES6
      - `preload(href,option)`
-     - `preloadModule(href,optin)` => ES6
+     - `preloadModule(href,option)` => ES6
    - **Init** => Indirir ve derler (Download and Execute)
    - **Load** => Yalnizca indirir (only Download)
 
