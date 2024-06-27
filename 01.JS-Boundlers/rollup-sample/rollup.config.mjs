@@ -1,5 +1,6 @@
 import json from '@rollup/plugin-json';
 import terser from '@rollup/plugin-terser';
+import serve from 'rollup-plugin-serve'
 
 export default {
     input: 'src/main.js',
@@ -12,7 +13,7 @@ export default {
         file: 'dist/bundle.min.js',
         plugins: [terser()]
     }],
-    plugins: [json()]
+    plugins: [json(),serve()]
 }
 
 // module.exports  da kullanilabilir

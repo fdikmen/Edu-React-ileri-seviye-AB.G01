@@ -77,3 +77,34 @@
 ### Günün Özeti
 
 İkinci günümüzde, önceki günün özetini yaparak başladık. Yine önceki günde Webpack-server'da alınan hatanın nasıl giderileceğini öğrendik. Ardından, Rollup, Webpack ve Snowpack'in performans, popülerlik ve bundle boyutu açısından karşılaştırmasını yaptık. Rollup'un ne olduğunu, kurulumunu ve Rollup ile bundle oluşturmayı öğrendik. Rollup'da kullanılabilecek formatları inceledik, konfigürasyon kullanımını ve pluginleri öğrendik. Son olarak, Rollup'da output plugin kullanımına dair bilgiler edindik.
+
+
+## 3. Gün
+
+1. **Önceki Günün Özeti**
+2. Rollup Code Splitting - Lazy Dynamic Loading
+output.manualChunks => https://rollupjs.org/configuration-options/#output-manualchunks
+output.chunkFileNames => https://rollupjs.org/configuration-options/#output-chunkfilenames
+output.entryFileNames => https://rollupjs.org/configuration-options/#output-entryfilenames
+3. rollup-plugin-server
+npm install --save-dev rollup-plugin-serve
+https://www.npmjs.com/package/rollup-plugin-serve
+4. React Lazy - Suspende
+5. Pre Methods
+
+MIME-TYPES
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+reMethods
+import react-dom // return X // href-string
+preconnect(href)
+prefetchDNS(href)
+preinit(href,option)
+preinitmodule(href,optin) => ES6
+preload(href,option)
+preloadModule(href,optin) => ES6
+
+6. Ileri Component Konular
+Higher Order Component (HOC)
+Reusable Higher Order Component
+Pure Component
+7. 
