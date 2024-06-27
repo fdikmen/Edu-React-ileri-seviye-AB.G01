@@ -78,33 +78,43 @@
 
 İkinci günümüzde, önceki günün özetini yaparak başladık. Yine önceki günde Webpack-server'da alınan hatanın nasıl giderileceğini öğrendik. Ardından, Rollup, Webpack ve Snowpack'in performans, popülerlik ve bundle boyutu açısından karşılaştırmasını yaptık. Rollup'un ne olduğunu, kurulumunu ve Rollup ile bundle oluşturmayı öğrendik. Rollup'da kullanılabilecek formatları inceledik, konfigürasyon kullanımını ve pluginleri öğrendik. Son olarak, Rollup'da output plugin kullanımına dair bilgiler edindik.
 
-
 ## 3. Gün
 
 1. **Önceki Günün Özeti**
-2. Rollup Code Splitting - Lazy Dynamic Loading
-output.manualChunks => https://rollupjs.org/configuration-options/#output-manualchunks
-output.chunkFileNames => https://rollupjs.org/configuration-options/#output-chunkfilenames
-output.entryFileNames => https://rollupjs.org/configuration-options/#output-entryfilenames
-3. rollup-plugin-server
-npm install --save-dev rollup-plugin-serve
-https://www.npmjs.com/package/rollup-plugin-serve
-4. React Lazy - Suspende
-5. Pre Methods
 
-MIME-TYPES
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
-reMethods
-import react-dom // return X // href-string
-preconnect(href)
-prefetchDNS(href)
-preinit(href,option)
-preinitmodule(href,optin) => ES6
-preload(href,option)
-preloadModule(href,optin) => ES6
+2. **Rollup Code Splitting - Lazy Dynamic Loading**
+   - `output.manualChunks` => [Manual Chunks Documentation](https://rollupjs.org/configuration-options/#output-manualchunks)
+   - `output.chunkFileNames` => [Chunk File Names Documentation](https://rollupjs.org/configuration-options/#output-chunkfilenames)
+   - `output.entryFileNames` => [Entry File Names Documentation](https://rollupjs.org/configuration-options/#output-entryfilenames)
 
-6. Ileri Component Konular
-Higher Order Component (HOC)
-Reusable Higher Order Component
-Pure Component
-7. 
+3. **rollup-plugin-serve**
+   - [npm Package](https://www.npmjs.com/package/rollup-plugin-serve)
+   - Kurulum: `npm install --save-dev rollup-plugin-serve`
+
+4. **React Lazy - Suspense**
+
+5. **Pre Methods**
+   - **MIME-TYPES**
+     - [Common MIME Types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
+   - `preMethods`
+     - `import -> react-dom` => `return -> none` => `href -> string`
+     - `preconnect(href)`
+     - `prefetchDNS(href)`
+     - `preinit(href,option)`
+     - `preinitmodule(href,optin)` => ES6
+     - `preload(href,option)`
+     - `preloadModule(href,optin)` => ES6
+   - **Init** => Indirir ve derler (Download and Execute)
+   - **Load** => Yalnizca indirir (only Download)
+
+6. **Ileri Component Konulari**
+
+Bu gün, Rollup ile kod bölme (code splitting) ve tembel yükleme (lazy loading) konularını detaylandırdık. Ayrıca, rollup-plugin-serve eklentisini inceledik ve nasıl kullanılacağına baktik. React'in tembel yükleme (lazy loading) ve Suspense özelliklerine giriş yaptık. Son olarak, React 18 yeni olan ön yükleme (preload) metodları hakkında bilgi edindik ve ileri düzey bileşen konularına (advanced component topics) giris yaptik.
+
+## 4. Gün
+
+1. **Önceki Günün Özeti**
+2. **Ileri Component Konular**
+   - **Higher Order Component (HOC)**
+   - **Reusable Higher Order Component**
+   - **Pure Component**
