@@ -94,7 +94,7 @@
 4. **React Lazy - Suspense**
 
 5. **Pre Methods**
-   - **MIME-TYPES**
+   - **mime-types**
      - [Common MIME Types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
    - `preMethods`
      - `import -> react-dom` => `return -> none` => `href -> string`
