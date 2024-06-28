@@ -108,24 +108,39 @@
    - **Load** => Yalnizca indirir (only Download)
 
 6. **Ileri Component Konulari**
+npx create-react-app [sampleApple]
+npm i axios
 
 Bu gün, Rollup ile kod bölme (code splitting) ve tembel yükleme (lazy loading) konularını detaylandırdık. Ayrıca, rollup-plugin-serve eklentisini inceledik ve nasıl kullanılacağına baktik. React'in tembel yükleme (lazy loading) ve Suspense özelliklerine giriş yaptık. Son olarak, React 18 yeni olan ön yükleme (preload) metodları hakkında bilgi edindik ve ileri düzey bileşen konularına (advanced component topics) giris yaptik.
 
 ## 4. Gün
 
 1. **Önceki Günün Özeti**
-2. **Ileri Component Konular**
+2. Suspense icin de Inline Component Kullanimi
+3. **Ileri Component Konular**
    - **Higher Order Component (HOC)**
    - **Reusable Higher Order Component**
    - **Pure Component**
-3. React Hooks
+4. React Hooks
    - useState
    - useEffect
    - useRef
-4. React 18 Hooks
+  
+## 5. Gün
+
+1. **Önceki Günün Özeti**
+2. React Hooks (Genel Tablo)
+   - sideEffect Kavrami
+   - useMemo
+   - useMemo Ne Zaman Kullanilmali/Kullanilmamali
+   - useCallback
+   - useEffect vs useMemo vs useCallBack
+3. React 18 Hooks
    - useId
    - useDeferredValue
    - useTransition
    - useSyncExternalStore
    - useInsertions
    - useLayoutEffect
+   - 
+4. Redux
