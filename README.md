@@ -126,21 +126,35 @@ Bu gün, Rollup ile kod bölme (code splitting) ve tembel yükleme (lazy loading
    - useEffect
    - useRef
   
+### Günün Özeti
+
+Bugün, önceki günün konularını gözden geçirdik ve ardından React'te Suspense kullanarak inline componentlerin nasıl oluşturulacağını öğrendik. Daha sonra ileri seviye component konularına, özellikle Higher Order Component (HOC), Reusable Higher Order Component ve Pure Component'lere odaklandık. Son olarak, React Hooks'tan useState, useEffect ve useRef kullanımlarını inceledik.
+
 ## 5. Gün
 
 1. **Önceki Günün Özeti**
 2. React Hooks (Genel Tablo)
-   - sideEffect Kavrami
+   - Side Effect Kavramı
+   - Memoization
    - useMemo
-   - useMemo Ne Zaman Kullanilmali/Kullanilmamali
+   - useMemo Ne Zaman Kullanılmalı/Kullanılmamalı
    - useCallback
-   - useEffect vs useMemo vs useCallBack
+   - useEffect vs useMemo vs useCallback
 3. React 18 Hooks
    - useId
    - useDeferredValue
    - useTransition
+
+### Günün Özeti
+
+Bugün, önceki günün konularını özetleyerek başladık ve ardından React Hooks genel tablosunu inceledik. Side Effect kavramını ve Memoization'ı tartıştık. useMemo hook'unun ne zaman kullanılması veya kullanılmaması gerektiğini öğrendik ve useCallback ile karşılaştırmalar yaptık. Ayrıca, useEffect, useMemo ve useCallback arasındaki farkları ele aldık. Son olarak, React 18 ile gelen yeni hook'lar olan useId, useDeferredValue ve useTransition hakkında bilgi edindik.
+
+## 6. Gün
+
+1. **Önceki Günün Özeti**
+2. React 18 Hooks
+   - useTransition
    - useSyncExternalStore
    - useInsertions
    - useLayoutEffect
-   - 
-4. Redux
+3. Redux
