@@ -111,7 +111,11 @@
 npx create-react-app [sampleApple]
 npm i axios
 
-Bu gün, Rollup ile kod bölme (code splitting) ve tembel yükleme (lazy loading) konularını detaylandırdık. Ayrıca, rollup-plugin-serve eklentisini inceledik ve nasıl kullanılacağına baktik. React'in tembel yükleme (lazy loading) ve Suspense özelliklerine giriş yaptık. Son olarak, React 18 yeni olan ön yükleme (preload) metodları hakkında bilgi edindik ve ileri düzey bileşen konularına (advanced component topics) giris yaptik.
+### Günün Özeti
+
+Bugün, önceki günün konularını gözden geçirdik ve ardından Rollup ile kod bölme ve dinamik yükleme yöntemlerini inceledik. `output.manualChunks`, `output.chunkFileNames` ve `output.entryFileNames` gibi Rollup konfigürasyon seçeneklerine göz attık. `rollup-plugin-serve` eklentisinin kurulumu ve kullanımı hakkında bilgi edindik.
+
+React'te Lazy ve Suspense kullanarak bileşenlerin nasıl ertelenerek yükleneceğini öğrendik. Ayrıca, `mime-types` ne olduğuna ve `preMethods` (preconnect, prefetchDNS, preinit, preinitmodule, preload, preloadModule) gibi ön yükleme yöntemlerini inceledik. Son olarak, ileri seviye bileşen konularına değindik ve `npx create-react-app` komutuyla yeni bir React projesi oluşturup, `axios` ile bir endpoint'e GET işlemi yapıp projeyi ertesi gün için hazır hale getirip, ileri düzey bileşen konularına (advanced component topics) giriş yaptık.
 
 ## 4. Gün
 
