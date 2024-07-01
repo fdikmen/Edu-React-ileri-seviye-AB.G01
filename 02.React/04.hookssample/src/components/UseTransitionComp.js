@@ -23,12 +23,12 @@ export default function UseTransitionComp() {
     const term = e.target.value.toLowerCase();
     setSearchTerm(term);
     startTransition(() => {
-      setTimeout(() => {
+    
         const filteredNames = nameList.filter((name) =>
             name.toLowerCase().includes(term)
           );
           setFilteredNames(filteredNames);
-      }, 2000);
+     
     });
   };
 
