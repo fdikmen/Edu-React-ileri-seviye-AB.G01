@@ -172,4 +172,42 @@ Bugün, önceki haftanın konularını özetleyerek başladık ve ardından Reac
 
 1. **Önceki Günün Özeti**
 2. Redux
-3. Nextjs
+   - npx create-react-app sample01
+   - <https://redux.js.org/assets/images/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif>
+   - npm i redux
+   - npm i @reduxjs/toolkit
+   - Reducer, Store, getState(), Action, subscribe(), dispatch()
+   - Multi Reducer => CombineReducer
+   - Initial data for reducer
+   - Provider - npm install react-redux
+   - Connect Store from any Component
+   - useSelector
+   - Set data to Store from any COmponent
+   - useDispatch
+3. redux Slice (Modern React)
+   - npx create-react-app sample01 - Counter App
+   - npm install redux @reduxjs/toolkit react-redux
+   - createSlice()
+4. PROJECT STRUCTURE - Clean Code Yapısi
+
+- <https://medium.com/@fdikmen/a-redux-toolkit-project-structure-guide-58093baa88a5>
+
+5. Redux Essential
+   - <https://redux.js.org/tutorials/essentials/part-2-app-structure>
+   - npx create-react-app sample03 --template redux
+
+### Günün Özeti
+
+Bugün dersimizde Redux'a odaklandık. React ile birlikte Redux'u kullanarak state yönetimini nasıl gerçekleştireceğimizi öğrendik.
+
+npx create-react-app kullanarak örnek bir React projesi oluşturduk.
+Redux'u ve @reduxjs/toolkit'i kurduk.
+Reducer, Store, getState(), Action, subscribe() ve dispatch() gibi temel Redux kavramlarını inceledik.
+Birden fazla reducer'ı birleştirmek için combineReducer'ı kullandık.
+Reducer için ilk veriyi nasıl ayarlayacağımızı öğrendik.
+react-redux ile Provider'ı kurduk ve herhangi bir componentten Store'a nasıl bağlanacağımızı gördük.
+useSelector ve useDispatch ile Store'dan veriyi nasıl okuyacağımızı ve Store'a veriyi nasıl yazacağımızı öğrendik.
+Modern React'te Redux Slice'ı nasıl kullanacağımızı inceledik.
+Temiz kod yapısı için Redux projesinde nasıl bir yapı kurulacağını öğrendik.
+Redux'un temel kavramlarını ve uygulama adımlarını pekiştirmek için örnekler ve kaynaklar üzerinden çalışmalar yaptık.
+Ek olarak, npx create-react-app komutuyla Redux şablonu kullanarak yeni bir React projesi nasıl oluşturulacağını da öğrendik
