@@ -159,6 +159,17 @@ Bugün, önceki günün konularını özetleyerek başladık ve ardından React 
 2. React 18 Hooks
    - useTransition
    - useSyncExternalStore
-   - useInsertions
+   - useInsertionEffect
    - useLayoutEffect
-3. Redux
+3. Soru-Cevap
+4. Redux
+
+### Günün Özeti
+
+Bugün, önceki haftanın konularını özetleyerek başladık ve ardından React 18 ile gelen yeni hook'ları incelemeye devam ettik. İlk olarak, useTransition hook'unun kullanımını ve uygulamalarını tartıştık. Sonrasında, dış veri kaynaklarıyla senkronizasyonu sağlayan useSyncExternalStore hook'unu öğrendik. Daha sonra, CSS veya DOM manipülasyonları için tasarlanan useInsertionEffect hook'unun detaylarına değindik. useLayoutEffect hook'unun ne zaman ve nasıl kullanılacağını ele aldık. Günü, soru-cevap  ve Redux'ın temel kavramları ile teorisi üzerine bir giriş ile tamamladık.
+
+## 7. Gün
+
+1. **Önceki Günün Özeti**
+2. Redux
+3. Nextjs
