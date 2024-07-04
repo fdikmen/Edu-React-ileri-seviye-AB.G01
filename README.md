@@ -196,6 +196,10 @@ Bugün, önceki haftanın konularını özetleyerek başladık ve ardından Reac
    - <https://redux.js.org/tutorials/essentials/part-2-app-structure>
    - npx create-react-app sample03 --template redux
 
+6. Redux Notlari
+
+- <https://medium.com/@fdikmen/redux-toolkit-ile-modern-redux-kullan%C4%B1m%C4%B1-5b59f8055da6>
+
 ### Günün Özeti
 
 Bugün dersimizde Redux'a odaklandık. React ile birlikte Redux'u kullanarak state yönetimini nasıl gerçekleştireceğimizi öğrendik.
@@ -212,7 +216,6 @@ Temiz kod yapısı için Redux projesinde nasıl bir yapı kurulacağını öğr
 Redux'un temel kavramlarını ve uygulama adımlarını pekiştirmek için örnekler ve kaynaklar üzerinden çalışmalar yaptık.
 Ek olarak, npx create-react-app komutuyla Redux şablonu kullanarak yeni bir React projesi nasıl oluşturulacağını da öğrendik
 
-
 ## 8. Gün
 
 1. **Önceki Günün Özeti**
@@ -221,6 +224,7 @@ Ek olarak, npx create-react-app komutuyla Redux şablonu kullanarak yeni bir Rea
 4. NextJS
    - node -v
    - npx create-next-app@latest
+
 ```bash
 What is your project named? my-app
 Would you like to use TypeScript? No / Yes
@@ -231,11 +235,39 @@ Would you like to use App Router? (recommended) No / Yes
 Would you like to customize the default import alias (@/*)? No / Yes
 What import alias would you like configured? @/*
 ```
-   - NextJS Snippets
-   - npm run build && npm run start => .next
-   - npm run dev
-   - Routing & Routing Type
-   - (), [], [[]],[...]
-   - Link
-   - "use client" -  server side;
 
+- NextJS Snippets
+- npm run build && npm run start => .next
+- npm run dev
+- Routing & Routing Type
+- (), [], [[]],[...]
+- Link
+- "use client" -  server side;
+
+-----
+
+### Günün Özeti
+
+Bugün isomorphic uygulamalar, Client-Side Rendering (CSR) ve Server-Side Rendering (SSR) arasındaki farklar, NextJS framework'ünün kurulumu ve temel yapı taşları hakkında öğrendik. NextJS ile yeni bir uygulama oluştururken karşımıza çıkan seçenekleri gördük. Ayrıca routing mekanizmasını ve routing tiplerini (), [], [[]], [...] gibi ifadelerle nasıl kullandığımızı öğrendik. Son olarak Link component'i ve "use client" ile server-side rendering ilişkisine değindik.
+
+## 9. Gün
+
+1. **Önceki Günün Özeti**
+2. NextJS Routing (), [], [[...]], [...]
+3. NextJS Link => replace - prefetch
+4. NextJS App Folder
+5. NextJS File Convensitons
+   - default.js
+   - error.js
+   - layout.js
+   - loading.js
+   - not-found.js
+   - page.js
+   - route.js
+   - Metadata Files => generateMetadata()
+6. Http vs WebSocket
+7. SocketIO
+8. SocketIO Codes
+   - npm init -y
+   - type-module
+   - npm install express
