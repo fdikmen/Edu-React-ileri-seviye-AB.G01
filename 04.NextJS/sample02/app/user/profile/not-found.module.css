@@ -1,0 +1,13 @@
+.notfoundcounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
