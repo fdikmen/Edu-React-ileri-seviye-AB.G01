@@ -211,3 +211,31 @@ Modern React'te Redux Slice'ı nasıl kullanacağımızı inceledik.
 Temiz kod yapısı için Redux projesinde nasıl bir yapı kurulacağını öğrendik.
 Redux'un temel kavramlarını ve uygulama adımlarını pekiştirmek için örnekler ve kaynaklar üzerinden çalışmalar yaptık.
 Ek olarak, npx create-react-app komutuyla Redux şablonu kullanarak yeni bir React projesi nasıl oluşturulacağını da öğrendik
+
+
+## 8. Gün
+
+1. **Önceki Günün Özeti**
+2. Isomorphic
+3. CSR - SSR
+4. NextJS
+   - node -v
+   - npx create-next-app@latest
+```bash
+What is your project named? my-app
+Would you like to use TypeScript? No / Yes
+Would you like to use ESLint? No / Yes
+Would you like to use Tailwind CSS? No / Yes
+Would you like to use `src/` directory? No / Yes
+Would you like to use App Router? (recommended) No / Yes
+Would you like to customize the default import alias (@/*)? No / Yes
+What import alias would you like configured? @/*
+```
+   - NextJS Snippets
+   - npm run build && npm run start => .next
+   - npm run dev
+   - Routing & Routing Type
+   - (), [], [[]],[...]
+   - Link
+   - "use client" -  server side;
+
