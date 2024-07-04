@@ -271,3 +271,7 @@ Bugün isomorphic uygulamalar, Client-Side Rendering (CSR) ve Server-Side Render
    - npm init -y
    - type-module
    - npm install express
+
+### Günün Özeti
+
+Bugün NextJS routing konusunu derinleştirerek (), [], [[...]], [...] gibi ifadelerin routing yapısındaki anlamlarını öğrendik. Ayrıca, NextJS'de bulunan Link component'i ile sayfalar arasında geçiş yöntemlerini ve replace ile prefetch seçeneklerini inceledik. Yeni uygulama yapısında kullanılan app klasörü ve NextJS'in dosya isimlendirme kurallarına(page.js, .error.js, .layout.js vb.) değindik. Son olarak, HTTP ve WebSocket arasındaki farkları anlayıp Socket.IO framework'ünü kurarak bir projeyi oluşturduk.
