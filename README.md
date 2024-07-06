@@ -2,7 +2,7 @@
 
 İleri Seviye React Eğitimi
 
-## 1. Gün
+## 01. Gün
 
 01. **Bundle Nedir?**
 02. **Bundle lar Neden Kullanılır ve Ne İşe Yarar?**
@@ -19,7 +19,7 @@
 
 İlk günümüzde, bundle nedir ve neden kullanılır konusundan başlayarak, CSS pre-processor, code splitting ve webpack'in mantığı üzerine derinlemesine bilgiler edindik. Web kurulumu ve custom configuration yapmayı öğrenip, loader ve plugin kullanımına geçiş yaptık. Webpack-server hakkında bilgi sahibi olduktan sonra günü tamamladık.
 
-## 2. Gün
+## 02. Gün
 
 1. **Önceki Günün Özeti**
 2. **webpack-server de alinan hatanin giderilmesi**
@@ -78,7 +78,7 @@
 
 İkinci günümüzde, önceki günün özetini yaparak başladık. Yine önceki günde Webpack-server'da alınan hatanın nasıl giderileceğini öğrendik. Ardından, Rollup, Webpack ve Snowpack'in performans, popülerlik ve bundle boyutu açısından karşılaştırmasını yaptık. Rollup'un ne olduğunu, kurulumunu ve Rollup ile bundle oluşturmayı öğrendik. Rollup'da kullanılabilecek formatları inceledik, konfigürasyon kullanımını ve pluginleri öğrendik. Son olarak, Rollup'da output plugin kullanımına dair bilgiler edindik.
 
-## 3. Gün
+## 03. Gün
 
 1. **Önceki Günün Özeti**
 
@@ -117,7 +117,7 @@ Bugün, önceki günün konularını gözden geçirdik ve ardından Rollup ile k
 
 React'te Lazy ve Suspense kullanarak bileşenlerin nasıl ertelenerek yükleneceğini öğrendik. Ayrıca, `mime-types` ne olduğuna ve `preMethods` (preconnect, prefetchDNS, preinit, preinitmodule, preload, preloadModule) gibi ön yükleme yöntemlerini inceledik. Son olarak, ileri seviye bileşen konularına değindik ve `npx create-react-app` komutuyla yeni bir React projesi oluşturup, `axios` ile bir endpoint'e GET işlemi yapıp projeyi ertesi gün için hazır hale getirip, ileri düzey bileşen konularına (advanced component topics) giriş yaptık.
 
-## 4. Gün
+## 04. Gün
 
 1. **Önceki Günün Özeti**
 2. Suspense icin de Inline Component Kullanimi
@@ -134,7 +134,7 @@ React'te Lazy ve Suspense kullanarak bileşenlerin nasıl ertelenerek yüklenece
 
 Bugün, önceki günün konularını gözden geçirdik ve ardından React'te Suspense kullanarak inline componentlerin nasıl oluşturulacağını öğrendik. Daha sonra ileri seviye component konularına, özellikle Higher Order Component (HOC), Reusable Higher Order Component ve Pure Component'lere odaklandık. Son olarak, React Hooks'tan useState, useEffect ve useRef kullanımlarını inceledik.
 
-## 5. Gün
+## 05. Gün
 
 1. **Önceki Günün Özeti**
 2. React Hooks (Genel Tablo)
@@ -153,7 +153,7 @@ Bugün, önceki günün konularını gözden geçirdik ve ardından React'te Sus
 
 Bugün, önceki günün konularını özetleyerek başladık ve ardından React Hooks genel tablosunu inceledik. Side Effect kavramını ve Memoization'ı tartıştık. useMemo hook'unun ne zaman kullanılması veya kullanılmaması gerektiğini öğrendik ve useCallback ile karşılaştırmalar yaptık. Ayrıca, useEffect, useMemo ve useCallback arasındaki farkları ele aldık. Son olarak, React 18 ile gelen yeni hook'lar olan useId, useDeferredValue ve useTransition hakkında bilgi edindik.
 
-## 6. Gün
+## 06. Gün
 
 1. **Önceki Günün Özeti**
 2. React 18 Hooks
@@ -168,7 +168,7 @@ Bugün, önceki günün konularını özetleyerek başladık ve ardından React 
 
 Bugün, önceki haftanın konularını özetleyerek başladık ve ardından React 18 ile gelen yeni hook'ları incelemeye devam ettik. İlk olarak, useTransition hook'unun kullanımını ve uygulamalarını tartıştık. Sonrasında, dış veri kaynaklarıyla senkronizasyonu sağlayan useSyncExternalStore hook'unu öğrendik. Daha sonra, CSS veya DOM manipülasyonları için tasarlanan useInsertionEffect hook'unun detaylarına değindik. useLayoutEffect hook'unun ne zaman ve nasıl kullanılacağını ele aldık. Günü, soru-cevap  ve Redux'ın temel kavramları ile teorisi üzerine bir giriş ile tamamladık.
 
-## 7. Gün
+## 07. Gün
 
 1. **Önceki Günün Özeti**
 2. Redux
@@ -216,7 +216,7 @@ Temiz kod yapısı için Redux projesinde nasıl bir yapı kurulacağını öğr
 Redux'un temel kavramlarını ve uygulama adımlarını pekiştirmek için örnekler ve kaynaklar üzerinden çalışmalar yaptık.
 Ek olarak, npx create-react-app komutuyla Redux şablonu kullanarak yeni bir React projesi nasıl oluşturulacağını da öğrendik
 
-## 8. Gün
+## 08. Gün
 
 1. **Önceki Günün Özeti**
 2. Isomorphic
@@ -250,7 +250,7 @@ What import alias would you like configured? @/*
 
 Bugün isomorphic uygulamalar, Client-Side Rendering (CSR) ve Server-Side Rendering (SSR) arasındaki farklar, NextJS framework'ünün kurulumu ve temel yapı taşları hakkında öğrendik. NextJS ile yeni bir uygulama oluştururken karşımıza çıkan seçenekleri gördük. Ayrıca routing mekanizmasını ve routing tiplerini (), [], [[]], [...] gibi ifadelerle nasıl kullandığımızı öğrendik. Son olarak Link component'i ve "use client" ile server-side rendering ilişkisine değindik.
 
-## 9. Gün
+## 09. Gün
 
 1. **Önceki Günün Özeti**
 2. NextJS Routing (), [], [[...]], [...]
@@ -275,3 +275,27 @@ Bugün isomorphic uygulamalar, Client-Side Rendering (CSR) ve Server-Side Render
 ### Günün Özeti
 
 Bugün NextJS routing konusunu derinleştirerek (), [], [[...]], [...] gibi ifadelerin routing yapısındaki anlamlarını öğrendik. Ayrıca, NextJS'de bulunan Link component'i ile sayfalar arasında geçiş yöntemlerini ve replace ile prefetch seçeneklerini inceledik. Yeni uygulama yapısında kullanılan app klasörü ve NextJS'in dosya isimlendirme kurallarına(page.js, .error.js, .layout.js vb.) değindik. Son olarak, HTTP ve WebSocket arasındaki farkları anlayıp Socket.IO framework'ünü kurarak bir projeyi oluşturduk.
+
+## 10. Gün
+
+1. **Önceki Günün Özeti**
+2. SocketIO Codes (Devam)
+   - npm init -y
+   - type-module
+   - npm install express
+   - npm i nodemon
+   - npm i socket.io
+   - npm i sqlite sqlite3
+   - using socket.io-client in HTML
+3. SocketIO Project with React
+   - client/server project
+   - using socket.io & socket.io-client
+4. Vite.js - Sample Project
+5. MicroFrontend
+6. MicroFrontend Project with React
+   - npx create-mf-app
+7. (Giriş) UI TEST (jest, enyzme, mocha)
+
+### Günün Özeti
+
+Eğitimin son gününde, Socket.IO kullanarak gerçek zamanlı uygulamalar geliştirmeye devam ettik. Express, Nodemon, SQLite ve Socket.IO kurulumlarının ardından, Socket.IO istemcisinin HTML içinde nasıl kullanılacağını öğrendik. Daha sonra, Socket.IO ve React ile client/server projeleri oluşturduk. MicroFrontend mimarisi hakkında bilgi edinip, Vite.js üzerinde konuştuktan sonra Vite.js kullanarak bir örnek proje geliştirdik. Sonra React ile MicroFrontend projesi oluşturup, bir Core projesindeki component/fonksiyon vb. ögeleri diğer bir React Projesi olan ProjectA da kullandık. Son olarak da jest, enzyme ve mocha gibi araçlardan bahsedip UI testlerine giriş yapıp, npx create-react-app ile gelen projedeki test değerlendirdik.
