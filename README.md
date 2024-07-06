@@ -266,6 +266,7 @@ Bugün isomorphic uygulamalar, Client-Side Rendering (CSR) ve Server-Side Render
    - route.js
    - Metadata Files => generateMetadata()
 6. Http vs WebSocket
+   - WebSocket Libraries => https://github.com/facundofarias/awesome-websockets
 7. SocketIO
 8. SocketIO Codes
    - npm init -y
